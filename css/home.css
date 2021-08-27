@@ -1,0 +1,9 @@
+.container, .container-md, .container-sm{
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    display: block;
+}
+
