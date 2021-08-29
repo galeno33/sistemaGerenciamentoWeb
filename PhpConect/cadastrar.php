@@ -1,7 +1,7 @@
 <?php
 
 	require_once 'conexao.php'; // Carrega os dados da conexão!	
-	//include ('sessão.php');
+	include ('sessão.php');
 
 
   //=================codigo para adaptar o cadastrar======================//
@@ -9,7 +9,7 @@
 
 if(isset($_POST['addnew'])){
     if( empty($_POST['codigo']) || empty($_POST['produto']) 
-    || empty($_POST['preco']) || empty($_POST['detalhes']) )//====buscar do html
+        || empty($_POST['preco']) || empty($_POST['detalhes']) )//====buscar do html
     {
         echo "Please fillout all required fields";
     }else{
