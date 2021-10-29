@@ -3,9 +3,9 @@
             header("Access-Control-Allow-Origin: *");
             header('Content-Type: text/html; charset=utf-8');
             //$host = "mysql:host=localhost;dbname=sistem_loja";
-            $host = "localhost";//no lugar de localhost colar == mysql380.umbler.com(é o host do servidor online)
-            $username = "mysql";//usuario do banco de dados
-            $password = "123456"; //senha do banco de dados
+            $host = "mysql:mysql380.umbler.com";//no lugar de localhost colar == mysql380.umbler.com(é o host do servidor online)
+            $username = "sistemloja";//usuario do banco de dados
+            $password = "lojasistem"; //senha do banco de dados
             $dbname = "sistem_loja";
 
             $conn = mysqli_connect($host, $username, $password, $dbname);

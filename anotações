@@ -1,0 +1,26 @@
+=========================APLICAÇÕES FEITAS=================================
+1 - criar painel principal. OK
+2 - criar tela de login funcionando direto com banco de dados. OK
+3 - banco de dados criados, POREM INCOMPLETO. OK
+4 - criar tela de cadastro de produto. OK
+5 - criar tela de serviços. OK
+6 - criar conexão ao banco dados. OK
+7 - Retorno de dados cadastrados(ORDEM DE SERVIÇO). OK
+
+
+
+=======================APLICAÇÕES A SER FEITAS============================
+
+1 - conectar para buscar informações do banco de dados.
+    1.1 - buscar os produtos cadastrados,
+        1.1.1 - ORDEM DE SERVIÇOS.
+2 - concluir o banco de dados com conexões entre tabelas
+3 - criar tela para cadastrar usuarios.
+4 - criar area pra visualizar usuarios cadastrados
+
+
+                                        <td>
+                                            <a href='read.php?id=" .$row['id'] ."' title='View User' data-toggle='tooltip'><span class='glyphicon glyphicon-eye-open'></span></a>
+                                            <a href='edit.php?id=" .$row['id'] ."' title='Edit User' data-toggle='tooltip'><span class='glyphicon glyphicon-pencil'></span></a>
+                                            <a href='delete.php?id=" .$row['id'] ."' title='Delete User' data-toggle='tooltip'><span class='glyphicon glyphicon-trash'></span></a>
+                                            </td>
